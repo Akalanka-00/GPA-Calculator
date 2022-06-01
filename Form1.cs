@@ -129,11 +129,12 @@ namespace GPA_Calculator
             sgpaLab.Text = sgpa;
             gpaLab.Text = gpa;
 
-            DataTable dt = new DataTable(); // your data table
-            dt.DefaultView.Sort = "your_field" + "sort_direction";
-            DataView dv = new DataView(dt);
-            dv.Sort = ("Course level" + "ASC");
-            rsDataView.DataSource = dv;
+            rsDataView.Sort(rsDataView.Columns[0], ListSortDirection.Ascending);
+            /* DataTable dt = new DataTable(); // your data table
+             dt.DefaultView.Sort = "your_field" + "sort_direction";
+             DataView dv = new DataView(dt);
+             dv.Sort = ("Course level" + "ASC");
+             rsDataView.DataSource = dv;*/
 
         }
 

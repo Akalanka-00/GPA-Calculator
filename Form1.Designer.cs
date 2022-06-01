@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GPA_CAL));
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -91,9 +92,8 @@
             this.gpaLab.ForeColor = System.Drawing.Color.White;
             this.gpaLab.Location = new System.Drawing.Point(276, 31);
             this.gpaLab.Name = "gpaLab";
-            this.gpaLab.Size = new System.Drawing.Size(33, 21);
+            this.gpaLab.Size = new System.Drawing.Size(0, 21);
             this.gpaLab.TabIndex = 4;
-            this.gpaLab.Text = "2.0";
             // 
             // label5
             // 
@@ -111,9 +111,8 @@
             this.sgpaLab.ForeColor = System.Drawing.Color.White;
             this.sgpaLab.Location = new System.Drawing.Point(68, 31);
             this.sgpaLab.Name = "sgpaLab";
-            this.sgpaLab.Size = new System.Drawing.Size(33, 21);
+            this.sgpaLab.Size = new System.Drawing.Size(0, 21);
             this.sgpaLab.TabIndex = 2;
-            this.sgpaLab.Text = "2.0";
             // 
             // label1
             // 
@@ -222,6 +221,7 @@
             this.Controls.Add(this.panel2);
             this.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "GPA_CAL";
             this.Text = "GPA CALCULATOR";
