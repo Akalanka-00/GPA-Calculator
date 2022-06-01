@@ -1,0 +1,27 @@
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\GPA Calculator.exe.config
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\GPA Calculator.exe
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\GPA Calculator.pdb
+D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.csproj.AssemblyReference.cache
+D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.csproj.SuggestedBindingRedirects.cache
+D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA_Calculator.Form1.resources
+D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA_Calculator.Properties.Resources.resources
+D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.csproj.GenerateResource.cache
+D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.csproj.CoreCompileInputs.cache
+D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.exe
+D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.pdb
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\FireSharp.dll
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\System.Net.Http.Extensions.dll
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\System.Net.Http.Primitives.dll
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\System.Net.Http.Extensions.xml
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\System.Net.Http.Primitives.xml
+D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.csproj.App.config
+D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA_Calculator.newResult.resources
+D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.csproj.CopyComplete
