@@ -31,9 +31,9 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
+            this.gpaLab = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.sgpaLab = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -75,9 +75,9 @@
             // panel6
             // 
             this.panel6.BackgroundImage = global::GPA_Calculator.Properties.Resources.back;
-            this.panel6.Controls.Add(this.label4);
+            this.panel6.Controls.Add(this.gpaLab);
             this.panel6.Controls.Add(this.label5);
-            this.panel6.Controls.Add(this.label3);
+            this.panel6.Controls.Add(this.sgpaLab);
             this.panel6.Controls.Add(this.label1);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel6.Location = new System.Drawing.Point(83, 721);
@@ -85,15 +85,15 @@
             this.panel6.Size = new System.Drawing.Size(1118, 61);
             this.panel6.TabIndex = 3;
             // 
-            // label4
+            // gpaLab
             // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(276, 31);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(33, 21);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "2.0";
+            this.gpaLab.AutoSize = true;
+            this.gpaLab.ForeColor = System.Drawing.Color.White;
+            this.gpaLab.Location = new System.Drawing.Point(276, 31);
+            this.gpaLab.Name = "gpaLab";
+            this.gpaLab.Size = new System.Drawing.Size(33, 21);
+            this.gpaLab.TabIndex = 4;
+            this.gpaLab.Text = "2.0";
             // 
             // label5
             // 
@@ -105,15 +105,15 @@
             this.label5.TabIndex = 3;
             this.label5.Text = "Total GPA";
             // 
-            // label3
+            // sgpaLab
             // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(68, 31);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(33, 21);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "2.0";
+            this.sgpaLab.AutoSize = true;
+            this.sgpaLab.ForeColor = System.Drawing.Color.White;
+            this.sgpaLab.Location = new System.Drawing.Point(68, 31);
+            this.sgpaLab.Name = "sgpaLab";
+            this.sgpaLab.Size = new System.Drawing.Size(33, 21);
+            this.sgpaLab.TabIndex = 2;
+            this.sgpaLab.Text = "2.0";
             // 
             // label1
             // 
@@ -173,6 +173,7 @@
             this.lvlCombo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lvlCombo.FormattingEnabled = true;
             this.lvlCombo.Items.AddRange(new object[] {
+            "All",
             "L1S1",
             "L1S2",
             "L2S1",
@@ -185,6 +186,7 @@
             this.lvlCombo.Name = "lvlCombo";
             this.lvlCombo.Size = new System.Drawing.Size(172, 29);
             this.lvlCombo.TabIndex = 1;
+            this.lvlCombo.SelectedIndexChanged += new System.EventHandler(this.lvlCombo_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -242,9 +244,9 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label gpaLab;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label sgpaLab;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView rsDataView;
