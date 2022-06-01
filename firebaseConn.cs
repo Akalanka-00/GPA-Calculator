@@ -1,5 +1,7 @@
 ﻿using FireSharp.Config;
 using FireSharp.Interfaces;
+using FireSharp.Response;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,8 +20,8 @@ namespace GPA_Calculator
         {
             conn = new FirebaseConfig()
             {
-                AuthSecret = "VWurrTemhi0qne6Fac4QkzBDGTUFH2uqsS8Fmc0Y",
-                BasePath = "https://vc-room-8cb9f-default-rtdb.firebaseio.com/",
+                AuthSecret = "Vx1GMpcIr7wmlNvDZmclpJf6c1HkiK5KLkgqQ9WX",
+                BasePath = "https://gpa-calculator-ea6d4-default-rtdb.firebaseio.com/",
 
             };
             try
@@ -34,20 +36,21 @@ namespace GPA_Calculator
 
         }
 
-        public void insertData(int pk, resultData rd)
+        public void insertData(String pk, resultData rd)
         {
             var setter = client.Set("results/" + pk, rd);
             MessageBox.Show("Data add successfully");
         }
 
-        public bool login(String uname, String psw)
+        public Dictionary<string, resultData> exportData()
         {
-            bool loginState = false;
+            
 
-            var result = client.Get("users/" + 1);
-            resultData rd = result.ResultAs<resultData>();
-           
-            return loginState;
+            FirebaseResponse res = client.Get(@"results");
+            Console.WriteLine(res.ToString());
+            Dictionary<string, resultData> data = JsonConvert.DeserializeObject<Dictionary<string, resultData>>(res.Body.ToString());
+   
+            return data;
         }
 
     }

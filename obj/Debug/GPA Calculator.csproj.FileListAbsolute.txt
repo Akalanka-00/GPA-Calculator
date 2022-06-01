@@ -25,3 +25,6 @@ D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\System.Net.Http.Primitive
 D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.csproj.App.config
 D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA_Calculator.newResult.resources
 D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.csproj.CopyComplete
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\FireSharp.Serialization.JsonNet.dll
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\RestSharp.dll
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\RestSharp.xml

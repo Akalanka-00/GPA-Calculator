@@ -63,7 +63,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = global::GPA_Calculator.Properties.Resources.back;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.panel9);
             this.panel1.Controls.Add(this.panel8);
             this.panel1.Controls.Add(this.panel7);
@@ -171,7 +171,7 @@
             // 
             this.nameTxt.Location = new System.Drawing.Point(161, 6);
             this.nameTxt.Name = "nameTxt";
-            this.nameTxt.Size = new System.Drawing.Size(172, 28);
+            this.nameTxt.Size = new System.Drawing.Size(477, 28);
             this.nameTxt.TabIndex = 3;
             // 
             // label3
@@ -279,10 +279,10 @@
             this.panel9.BackColor = System.Drawing.Color.Transparent;
             this.panel9.Controls.Add(this.OKbtn);
             this.panel9.Controls.Add(this.cancelBtn);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel9.Location = new System.Drawing.Point(0, 332);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(773, 52);
+            this.panel9.Size = new System.Drawing.Size(773, 69);
             this.panel9.TabIndex = 7;
             // 
             // cancelBtn
@@ -303,11 +303,13 @@
             this.OKbtn.TabIndex = 1;
             this.OKbtn.Text = "OK";
             this.OKbtn.UseVisualStyleBackColor = true;
+            this.OKbtn.Click += new System.EventHandler(this.OKbtn_Click);
             // 
             // newResult
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(773, 401);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -316,6 +318,7 @@
             this.Name = "newResult";
             this.Text = "newResult";
             this.TopMost = true;
+            this.Load += new System.EventHandler(this.newResult_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

@@ -13,6 +13,6 @@ namespace GPA_Calculator
         public string name { get; set; }
         public bool isGPA { get; set; }
         public string result { get; set; }
-        public string credit { get; set; }
+        public double credit { get; set; }
     }
 }
