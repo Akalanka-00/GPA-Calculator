@@ -20,8 +20,8 @@ namespace GPA_Calculator
         {
             conn = new FirebaseConfig()
             {
-                AuthSecret = "Vx1GMpcIr7wmlNvDZmclpJf6c1HkiK5KLkgqQ9WX",
-                BasePath = "https://gpa-calculator-ea6d4-default-rtdb.firebaseio.com/",
+                AuthSecret = "",
+                BasePath = "",
 
             };
             try
@@ -39,7 +39,7 @@ namespace GPA_Calculator
         public void insertData(String pk, resultData rd)
         {
             var setter = client.Set("results/" + pk, rd);
-            MessageBox.Show("Data add successfully");
+           // MessageBox.Show("Data add successfully");
         }
 
         public Dictionary<string, resultData> exportData()

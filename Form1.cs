@@ -121,8 +121,8 @@ namespace GPA_Calculator
             }
 
             string gpa, sgpa;
-            sgpa = (sgpa_znixgi/sgpa_zni).ToString();
-            gpa = (tgpa_znixgi / tgpa_zni).ToString();
+            sgpa = ((sgpa_znixgi/sgpa_zni)).ToString("0.0000");
+            gpa = (tgpa_znixgi / tgpa_zni).ToString("0.0000");
 
             sgpaLab.Text = sgpa;
             gpaLab.Text = gpa;
