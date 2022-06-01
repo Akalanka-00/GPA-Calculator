@@ -30,7 +30,7 @@ namespace GPA_Calculator
             rsData.Id = idTxt.Text;
             rsData.name = nameTxt.Text;
             rsData.isGPA = isGPACombo.SelectedIndex==0?true:false;
-            rsData.result = resTxt.Text;
+            rsData.result = resCombo.SelectedItem.ToString();
             rsData.credit = Convert.ToDouble(crTxt.Text);
 
             firebaseConn conn = new firebaseConn();
@@ -50,6 +50,7 @@ namespace GPA_Calculator
         private void newResult_Load(object sender, EventArgs e)
         {
             lvlCombo.SelectedIndex = 0;
+            resCombo.SelectedIndex = 0;
             isGPACombo.SelectedIndex = 0;
         }
     }

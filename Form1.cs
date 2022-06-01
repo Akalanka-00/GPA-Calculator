@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace GPA_Calculator
 {
-    public partial class Form1 : Form
+    public partial class GPA_CAL : Form
     {
         firebaseConn conn = new firebaseConn();
         
-        public Form1()
+        public GPA_CAL()
         {
             InitializeComponent();
         }
@@ -88,7 +88,7 @@ namespace GPA_Calculator
             rsDataView.Columns.Add("Is GPA", "isGPA");
             rsDataView.Columns.Add("Result", "result");
             rsDataView.Columns.Add("Credit", "credit");
-            Console.WriteLine(record.Values.Count);
+           // Console.WriteLine(record.Values.Count);
 
             if(record != null)
             {
@@ -118,6 +118,8 @@ namespace GPA_Calculator
                     }
                     }
 
+
+
             }
 
             string gpa, sgpa;
@@ -127,12 +129,18 @@ namespace GPA_Calculator
             sgpaLab.Text = sgpa;
             gpaLab.Text = gpa;
 
+            DataTable dt = new DataTable(); // your data table
+            dt.DefaultView.Sort = "your_field" + "sort_direction";
+            DataView dv = new DataView(dt);
+            dv.Sort = ("Course level" + "ASC");
+            rsDataView.DataSource = dv;
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             lvlCombo.SelectedIndex = 0;
-            
+           // Console.WriteLine(Environment.UserName);
             rsDataGridView();
         }
 

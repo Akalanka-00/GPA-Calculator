@@ -3,7 +3,6 @@ D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\GPA Calculator.exe
 D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\GPA Calculator.pdb
 D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.csproj.AssemblyReference.cache
 D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.csproj.SuggestedBindingRedirects.cache
-D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA_Calculator.Form1.resources
 D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA_Calculator.Properties.Resources.resources
 D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.csproj.GenerateResource.cache
 D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.csproj.CoreCompileInputs.cache
@@ -28,3 +27,8 @@ D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.csproj.Cop
 D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\FireSharp.Serialization.JsonNet.dll
 D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\RestSharp.dll
 D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\RestSharp.xml
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\GPA Calculator.exe.manifest
+D:\Projects\c#\GPA Calculator\GPA Calculator\bin\Debug\GPA Calculator.application
+D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.exe.manifest
+D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA Calculator.application
+D:\Projects\c#\GPA Calculator\GPA Calculator\obj\Debug\GPA_Calculator.GPA_CAL.resources

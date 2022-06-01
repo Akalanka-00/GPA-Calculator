@@ -15,13 +15,14 @@ namespace GPA_Calculator
     {
         IFirebaseConfig conn;
         IFirebaseClient client;
+        String dbName = Environment.UserName;
 
         public void startConn()
         {
             conn = new FirebaseConfig()
             {
-                AuthSecret = "",
-                BasePath = "",
+                AuthSecret = "Vx1GMpcIr7wmlNvDZmclpJf6c1HkiK5KLkgqQ9WX",
+                BasePath = "https://gpa-calculator-ea6d4-default-rtdb.firebaseio.com/",
 
             };
             try
@@ -38,7 +39,7 @@ namespace GPA_Calculator
 
         public void insertData(String pk, resultData rd)
         {
-            var setter = client.Set("results/" + pk, rd);
+            var setter = client.Set(""+dbName+"/" + pk, rd);
            // MessageBox.Show("Data add successfully");
         }
 
@@ -46,7 +47,7 @@ namespace GPA_Calculator
         {
             
 
-            FirebaseResponse res = client.Get(@"results");
+            FirebaseResponse res = client.Get(@""+dbName);
             Console.WriteLine(res.ToString());
             Dictionary<string, resultData> data = JsonConvert.DeserializeObject<Dictionary<string, resultData>>(res.Body.ToString());
    

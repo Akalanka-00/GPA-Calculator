@@ -1,6 +1,6 @@
 ﻿namespace GPA_Calculator
 {
-    partial class Form1
+    partial class GPA_CAL
     {
         /// <summary>
         /// Required designer variable.
@@ -201,6 +201,8 @@
             // rsDataView
             // 
             this.rsDataView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.rsDataView.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.rsDataView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.rsDataView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.rsDataView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rsDataView.Location = new System.Drawing.Point(0, 0);
@@ -212,7 +214,7 @@
             this.rsDataView.Size = new System.Drawing.Size(1118, 659);
             this.rsDataView.TabIndex = 0;
             // 
-            // Form1
+            // GPA_CAL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -221,8 +223,8 @@
             this.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "GPA_CAL";
+            this.Text = "GPA CALCULATOR";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

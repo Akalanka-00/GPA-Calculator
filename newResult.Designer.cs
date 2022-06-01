@@ -43,7 +43,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.isGPACombo = new System.Windows.Forms.ComboBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.resTxt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.crTxt = new System.Windows.Forms.TextBox();
@@ -51,6 +50,7 @@
             this.panel9 = new System.Windows.Forms.Panel();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.OKbtn = new System.Windows.Forms.Button();
+            this.resCombo = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -221,20 +221,13 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.Transparent;
-            this.panel7.Controls.Add(this.resTxt);
+            this.panel7.Controls.Add(this.resCombo);
             this.panel7.Controls.Add(this.label5);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(0, 228);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(773, 52);
             this.panel7.TabIndex = 5;
-            // 
-            // resTxt
-            // 
-            this.resTxt.Location = new System.Drawing.Point(161, 6);
-            this.resTxt.Name = "resTxt";
-            this.resTxt.Size = new System.Drawing.Size(172, 28);
-            this.resTxt.TabIndex = 3;
             // 
             // label5
             // 
@@ -305,6 +298,30 @@
             this.OKbtn.UseVisualStyleBackColor = true;
             this.OKbtn.Click += new System.EventHandler(this.OKbtn_Click);
             // 
+            // resCombo
+            // 
+            this.resCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.resCombo.FormattingEnabled = true;
+            this.resCombo.Items.AddRange(new object[] {
+            "A+",
+            "A",
+            "A-",
+            "B+",
+            "B",
+            "B-",
+            "C+",
+            "C",
+            "C-",
+            "D",
+            "I",
+            "F",
+            "P",
+            "N"});
+            this.resCombo.Location = new System.Drawing.Point(161, 6);
+            this.resCombo.Name = "resCombo";
+            this.resCombo.Size = new System.Drawing.Size(172, 29);
+            this.resCombo.TabIndex = 4;
+            // 
             // newResult
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
@@ -347,7 +364,6 @@
         private System.Windows.Forms.TextBox crTxt;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.TextBox resTxt;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.ComboBox isGPACombo;
@@ -362,5 +378,6 @@
         private System.Windows.Forms.ComboBox lvlCombo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.ComboBox resCombo;
     }
 }
