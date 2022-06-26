@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GPA_CAL));
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.rsDataView = new System.Windows.Forms.DataGridView();
             this.panel6 = new System.Windows.Forms.Panel();
             this.gpaLab = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -42,12 +43,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.lvlCombo = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.rsDataView = new System.Windows.Forms.DataGridView();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rsDataView)).BeginInit();
             this.panel6.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.rsDataView)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -72,6 +72,23 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1118, 659);
             this.panel1.TabIndex = 4;
+            // 
+            // rsDataView
+            // 
+            this.rsDataView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.rsDataView.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.rsDataView.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rsDataView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.rsDataView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rsDataView.Location = new System.Drawing.Point(0, 0);
+            this.rsDataView.MultiSelect = false;
+            this.rsDataView.Name = "rsDataView";
+            this.rsDataView.ReadOnly = true;
+            this.rsDataView.RowHeadersWidth = 51;
+            this.rsDataView.RowTemplate.Height = 24;
+            this.rsDataView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.rsDataView.Size = new System.Drawing.Size(1118, 659);
+            this.rsDataView.TabIndex = 0;
             // 
             // panel6
             // 
@@ -104,6 +121,7 @@
             this.label5.Size = new System.Drawing.Size(94, 21);
             this.label5.TabIndex = 3;
             this.label5.Text = "Total GPA";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // sgpaLab
             // 
@@ -197,22 +215,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Select the Level";
             // 
-            // rsDataView
-            // 
-            this.rsDataView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.rsDataView.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
-            this.rsDataView.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rsDataView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.rsDataView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rsDataView.Location = new System.Drawing.Point(0, 0);
-            this.rsDataView.MultiSelect = false;
-            this.rsDataView.Name = "rsDataView";
-            this.rsDataView.ReadOnly = true;
-            this.rsDataView.RowHeadersWidth = 51;
-            this.rsDataView.RowTemplate.Height = 24;
-            this.rsDataView.Size = new System.Drawing.Size(1118, 659);
-            this.rsDataView.TabIndex = 0;
-            // 
             // GPA_CAL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
@@ -222,17 +224,17 @@
             this.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GPA_CAL";
             this.Text = "GPA CALCULATOR";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.rsDataView)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.rsDataView)).EndInit();
             this.ResumeLayout(false);
 
         }

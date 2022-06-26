@@ -155,5 +155,10 @@ namespace GPA_Calculator
         {
             rsDataGridView();
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
