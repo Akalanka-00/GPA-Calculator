@@ -30,36 +30,36 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(newResult));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.lvlCombo = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.idTxt = new System.Windows.Forms.TextBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.nameTxt = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.isGPACombo = new System.Windows.Forms.ComboBox();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.OKbtn = new System.Windows.Forms.Button();
+            this.cancelBtn = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
             this.crTxt = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.cancelBtn = new System.Windows.Forms.Button();
-            this.OKbtn = new System.Windows.Forms.Button();
+            this.panel7 = new System.Windows.Forms.Panel();
             this.resCombo = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.isGPACombo = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.nameTxt = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.idTxt = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.lvlCombo = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -75,19 +75,204 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(773, 401);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
+            // panel9
             // 
-            this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(773, 20);
-            this.panel2.TabIndex = 0;
+            this.panel9.BackColor = System.Drawing.Color.Transparent;
+            this.panel9.Controls.Add(this.OKbtn);
+            this.panel9.Controls.Add(this.cancelBtn);
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel9.Location = new System.Drawing.Point(0, 332);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(773, 69);
+            this.panel9.TabIndex = 7;
+            // 
+            // OKbtn
+            // 
+            this.OKbtn.Location = new System.Drawing.Point(521, 6);
+            this.OKbtn.Name = "OKbtn";
+            this.OKbtn.Size = new System.Drawing.Size(117, 51);
+            this.OKbtn.TabIndex = 1;
+            this.OKbtn.Text = "OK";
+            this.OKbtn.UseVisualStyleBackColor = true;
+            this.OKbtn.Click += new System.EventHandler(this.OKbtn_Click);
+            // 
+            // cancelBtn
+            // 
+            this.cancelBtn.Location = new System.Drawing.Point(644, 6);
+            this.cancelBtn.Name = "cancelBtn";
+            this.cancelBtn.Size = new System.Drawing.Size(117, 51);
+            this.cancelBtn.TabIndex = 0;
+            this.cancelBtn.Text = "Cancel";
+            this.cancelBtn.UseVisualStyleBackColor = true;
+            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.Transparent;
+            this.panel8.Controls.Add(this.crTxt);
+            this.panel8.Controls.Add(this.label6);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel8.Location = new System.Drawing.Point(0, 280);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(773, 52);
+            this.panel8.TabIndex = 6;
+            // 
+            // crTxt
+            // 
+            this.crTxt.Location = new System.Drawing.Point(161, 6);
+            this.crTxt.Name = "crTxt";
+            this.crTxt.Size = new System.Drawing.Size(172, 28);
+            this.crTxt.TabIndex = 3;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(12, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(62, 21);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Credit";
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Transparent;
+            this.panel7.Controls.Add(this.resCombo);
+            this.panel7.Controls.Add(this.label5);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 228);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(773, 52);
+            this.panel7.TabIndex = 5;
+            // 
+            // resCombo
+            // 
+            this.resCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.resCombo.FormattingEnabled = true;
+            this.resCombo.Items.AddRange(new object[] {
+            "A+",
+            "A",
+            "A-",
+            "B+",
+            "B",
+            "B-",
+            "C+",
+            "C",
+            "C-",
+            "D",
+            "I",
+            "F",
+            "P",
+            "N"});
+            this.resCombo.Location = new System.Drawing.Point(161, 6);
+            this.resCombo.Name = "resCombo";
+            this.resCombo.Size = new System.Drawing.Size(172, 29);
+            this.resCombo.TabIndex = 4;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(12, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(58, 21);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Result";
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.Transparent;
+            this.panel6.Controls.Add(this.isGPACombo);
+            this.panel6.Controls.Add(this.label4);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel6.Location = new System.Drawing.Point(0, 176);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(773, 52);
+            this.panel6.TabIndex = 4;
+            // 
+            // isGPACombo
+            // 
+            this.isGPACombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.isGPACombo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.isGPACombo.FormattingEnabled = true;
+            this.isGPACombo.Items.AddRange(new object[] {
+            "True",
+            "False"});
+            this.isGPACombo.Location = new System.Drawing.Point(161, 6);
+            this.isGPACombo.Name = "isGPACombo";
+            this.isGPACombo.Size = new System.Drawing.Size(172, 29);
+            this.isGPACombo.TabIndex = 4;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(12, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(65, 21);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Is GPA";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
+            this.panel5.Controls.Add(this.nameTxt);
+            this.panel5.Controls.Add(this.label3);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 124);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(773, 52);
+            this.panel5.TabIndex = 3;
+            // 
+            // nameTxt
+            // 
+            this.nameTxt.Location = new System.Drawing.Point(161, 6);
+            this.nameTxt.Name = "nameTxt";
+            this.nameTxt.Size = new System.Drawing.Size(477, 28);
+            this.nameTxt.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(12, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(124, 21);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Course Name";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Transparent;
+            this.panel4.Controls.Add(this.idTxt);
+            this.panel4.Controls.Add(this.label2);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 72);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(773, 52);
+            this.panel4.TabIndex = 2;
+            // 
+            // idTxt
+            // 
+            this.idTxt.Location = new System.Drawing.Point(161, 6);
+            this.idTxt.Name = "idTxt";
+            this.idTxt.Size = new System.Drawing.Size(172, 28);
+            this.idTxt.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(12, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(91, 21);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Course ID";
             // 
             // panel3
             // 
@@ -129,229 +314,44 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Select the Level";
             // 
-            // panel4
+            // panel2
             // 
-            this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.Controls.Add(this.idTxt);
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 72);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(773, 52);
-            this.panel4.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(12, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 21);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Course ID";
-            // 
-            // idTxt
-            // 
-            this.idTxt.Location = new System.Drawing.Point(161, 6);
-            this.idTxt.Name = "idTxt";
-            this.idTxt.Size = new System.Drawing.Size(172, 28);
-            this.idTxt.TabIndex = 3;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Transparent;
-            this.panel5.Controls.Add(this.nameTxt);
-            this.panel5.Controls.Add(this.label3);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 124);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(773, 52);
-            this.panel5.TabIndex = 3;
-            // 
-            // nameTxt
-            // 
-            this.nameTxt.Location = new System.Drawing.Point(161, 6);
-            this.nameTxt.Name = "nameTxt";
-            this.nameTxt.Size = new System.Drawing.Size(477, 28);
-            this.nameTxt.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(12, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(124, 21);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Course Name";
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.Transparent;
-            this.panel6.Controls.Add(this.isGPACombo);
-            this.panel6.Controls.Add(this.label4);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 176);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(773, 52);
-            this.panel6.TabIndex = 4;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(12, 9);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 21);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Is GPA";
-            // 
-            // isGPACombo
-            // 
-            this.isGPACombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.isGPACombo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.isGPACombo.FormattingEnabled = true;
-            this.isGPACombo.Items.AddRange(new object[] {
-            "True",
-            "False"});
-            this.isGPACombo.Location = new System.Drawing.Point(161, 6);
-            this.isGPACombo.Name = "isGPACombo";
-            this.isGPACombo.Size = new System.Drawing.Size(172, 29);
-            this.isGPACombo.TabIndex = 4;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.Transparent;
-            this.panel7.Controls.Add(this.resCombo);
-            this.panel7.Controls.Add(this.label5);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 228);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(773, 52);
-            this.panel7.TabIndex = 5;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(12, 9);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 21);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Result";
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.Transparent;
-            this.panel8.Controls.Add(this.crTxt);
-            this.panel8.Controls.Add(this.label6);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(0, 280);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(773, 52);
-            this.panel8.TabIndex = 6;
-            // 
-            // crTxt
-            // 
-            this.crTxt.Location = new System.Drawing.Point(161, 6);
-            this.crTxt.Name = "crTxt";
-            this.crTxt.Size = new System.Drawing.Size(172, 28);
-            this.crTxt.TabIndex = 3;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(12, 9);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 21);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "Credit";
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.Transparent;
-            this.panel9.Controls.Add(this.OKbtn);
-            this.panel9.Controls.Add(this.cancelBtn);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel9.Location = new System.Drawing.Point(0, 332);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(773, 69);
-            this.panel9.TabIndex = 7;
-            // 
-            // cancelBtn
-            // 
-            this.cancelBtn.Location = new System.Drawing.Point(644, 6);
-            this.cancelBtn.Name = "cancelBtn";
-            this.cancelBtn.Size = new System.Drawing.Size(117, 51);
-            this.cancelBtn.TabIndex = 0;
-            this.cancelBtn.Text = "Cancel";
-            this.cancelBtn.UseVisualStyleBackColor = true;
-            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
-            // 
-            // OKbtn
-            // 
-            this.OKbtn.Location = new System.Drawing.Point(521, 6);
-            this.OKbtn.Name = "OKbtn";
-            this.OKbtn.Size = new System.Drawing.Size(117, 51);
-            this.OKbtn.TabIndex = 1;
-            this.OKbtn.Text = "OK";
-            this.OKbtn.UseVisualStyleBackColor = true;
-            this.OKbtn.Click += new System.EventHandler(this.OKbtn_Click);
-            // 
-            // resCombo
-            // 
-            this.resCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.resCombo.FormattingEnabled = true;
-            this.resCombo.Items.AddRange(new object[] {
-            "A+",
-            "A",
-            "A-",
-            "B+",
-            "B",
-            "B-",
-            "C+",
-            "C",
-            "C-",
-            "D",
-            "I",
-            "F",
-            "P",
-            "N"});
-            this.resCombo.Location = new System.Drawing.Point(161, 6);
-            this.resCombo.Name = "resCombo";
-            this.resCombo.Size = new System.Drawing.Size(172, 29);
-            this.resCombo.TabIndex = 4;
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(773, 20);
+            this.panel2.TabIndex = 0;
             // 
             // newResult
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Navy;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(50)))), ((int)(((byte)(150)))));
             this.ClientSize = new System.Drawing.Size(773, 401);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "newResult";
             this.Text = "newResult";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.newResult_Load);
             this.panel1.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
+            this.panel9.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            this.panel9.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
