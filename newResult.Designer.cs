@@ -93,12 +93,13 @@
             // 
             // OKbtn
             // 
+            this.OKbtn.BackColor = System.Drawing.Color.Transparent;
             this.OKbtn.Location = new System.Drawing.Point(521, 6);
             this.OKbtn.Name = "OKbtn";
             this.OKbtn.Size = new System.Drawing.Size(117, 51);
             this.OKbtn.TabIndex = 1;
             this.OKbtn.Text = "OK";
-            this.OKbtn.UseVisualStyleBackColor = true;
+            this.OKbtn.UseVisualStyleBackColor = false;
             this.OKbtn.Click += new System.EventHandler(this.OKbtn_Click);
             // 
             // cancelBtn
@@ -198,7 +199,6 @@
             // isGPACombo
             // 
             this.isGPACombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.isGPACombo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.isGPACombo.FormattingEnabled = true;
             this.isGPACombo.Items.AddRange(new object[] {
             "True",
